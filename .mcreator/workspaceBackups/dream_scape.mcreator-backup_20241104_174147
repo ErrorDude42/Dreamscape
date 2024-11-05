@@ -13,14 +13,6 @@
       {
         "name": "mobs",
         "children": []
-      },
-      {
-        "name": "items",
-        "children": []
-      },
-      {
-        "name": "world gen",
-        "children": []
       }
     ]
   },
