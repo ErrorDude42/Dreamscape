@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dream_scape:block/quaking_aspen_slab"
+    },
+    "type=top": {
+      "model": "dream_scape:block/quaking_aspen_slab_top"
+    },
+    "type=double": {
+      "model": "dream_scape:block/quaking_aspen_slab_full"
+    }
+  }
+}

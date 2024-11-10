@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dream_scape:block/quaking_aspen_leaves",
+    "particle": "dream_scape:block/quaking_aspen_leaves"
+  }
+}

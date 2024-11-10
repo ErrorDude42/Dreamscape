@@ -9,7 +9,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "world gen",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dream_scape",

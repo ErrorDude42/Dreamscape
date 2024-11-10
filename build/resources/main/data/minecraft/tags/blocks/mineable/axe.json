@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dream_scape:faded_oak_planks",
+    "dream_scape:faded_oak_log",
+    "dream_scape:faded_oak_wood",
+    "dream_scape:quaking_aspen_planks",
+    "dream_scape:quaking_aspen_log",
+    "dream_scape:quaking_aspen_wood"
+  ]
+}

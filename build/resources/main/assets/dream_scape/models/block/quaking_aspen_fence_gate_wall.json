@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "dream_scape:block/quaking_aspen_planks",
+    "texture": "dream_scape:block/quaking_aspen_planks"
+  },
+  "render_type": "solid"
+}

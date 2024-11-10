@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Faded_OakLog"
+      },
+      {
+        "value": "CUSTOM:Faded_OakLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Faded_OakLog"
+      },
+      {
+        "value": "CUSTOM:Faded_OakLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Faded_OakWood"
+    },
+    "name": "faded_oak_wood_recipe",
+    "namespace": "mod"
+  }
+}
