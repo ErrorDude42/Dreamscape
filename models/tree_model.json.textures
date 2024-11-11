@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "faded_oak_sapling"
+      },
+      "name": "default"
+    }
+  }
+}

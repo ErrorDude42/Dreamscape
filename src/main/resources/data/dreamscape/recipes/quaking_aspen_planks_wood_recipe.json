@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dreamscape:quaking_aspen_wood"
+    }
+  ],
+  "result": {
+    "item": "dreamscape:quaking_aspen_planks",
+    "count": 4
+  }
+}

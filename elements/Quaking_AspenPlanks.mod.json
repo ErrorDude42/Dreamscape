@@ -34,14 +34,14 @@
       }
     ],
     "customProperties": [],
-    "name": "Quaking_Aspen Planks",
+    "name": "Quaking Aspen Planks",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTabs": [
       {
         "value": "CUSTOM:DreamScape"

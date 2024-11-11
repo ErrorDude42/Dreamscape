@@ -26,26 +26,26 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-import io.github.errordude42.dreamscape.init.DreamScapeModTabs;
-import io.github.errordude42.dreamscape.init.DreamScapeModItems;
-import io.github.errordude42.dreamscape.init.DreamScapeModBlocks;
+import io.github.errordude42.dreamscape.init.DreamscapeModTabs;
+import io.github.errordude42.dreamscape.init.DreamscapeModItems;
+import io.github.errordude42.dreamscape.init.DreamscapeModBlocks;
 
-@Mod("dream_scape")
-public class DreamScapeMod {
-	public static final Logger LOGGER = LogManager.getLogger(DreamScapeMod.class);
-	public static final String MODID = "dream_scape";
+@Mod("dreamscape")
+public class DreamscapeMod {
+	public static final Logger LOGGER = LogManager.getLogger(DreamscapeMod.class);
+	public static final String MODID = "dreamscape";
 
-	public DreamScapeMod() {
+	public DreamscapeMod() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		DreamScapeModBlocks.REGISTRY.register(bus);
+		DreamscapeModBlocks.REGISTRY.register(bus);
 
-		DreamScapeModItems.REGISTRY.register(bus);
+		DreamscapeModItems.REGISTRY.register(bus);
 
-		DreamScapeModTabs.REGISTRY.register(bus);
+		DreamscapeModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

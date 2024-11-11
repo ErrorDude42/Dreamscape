@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "dreamscape:block/faded_dirt",
+    "top": "dreamscape:block/faded_grass_top",
+    "side": "dreamscape:block/faded_grass_side",
+    "overlay": "dreamscape:block/faded_grass_side",
+    "particle": "dreamscape:block/faded_dirt"
+  },
+  "render_type": "solid"
+}

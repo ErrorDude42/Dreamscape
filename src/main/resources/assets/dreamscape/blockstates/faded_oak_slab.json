@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dreamscape:block/faded_oak_slab"
+    },
+    "type=top": {
+      "model": "dreamscape:block/faded_oak_slab_top"
+    },
+    "type=double": {
+      "model": "dreamscape:block/faded_oak_slab_full"
+    }
+  }
+}

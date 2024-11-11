@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "dreamscape:block/faded_oak_planks",
+    "texture": "dreamscape:block/faded_oak_planks"
+  },
+  "render_type": "solid"
+}

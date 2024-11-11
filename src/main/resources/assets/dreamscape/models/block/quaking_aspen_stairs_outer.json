@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "dreamscape:block/quaking_aspen_planks",
+    "bottom": "dreamscape:block/quaking_aspen_planks",
+    "top": "dreamscape:block/quaking_aspen_planks",
+    "side": "dreamscape:block/quaking_aspen_planks"
+  },
+  "render_type": "solid"
+}

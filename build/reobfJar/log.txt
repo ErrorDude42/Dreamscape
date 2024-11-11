@@ -134,27 +134,46 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Dreamscape\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakPlanksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedGrassBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedGrassBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedGrassBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedDirtBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakFenceGateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakPressurePlateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakSlabBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedSaplingBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedSaplingBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedStoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedSaplingBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/FadedSaplingBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakFenceBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakButtonBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/LeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakFenceBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakPlanksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakSlabBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenButtonBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakWoodBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakWoodBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakWoodBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenButtonBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenFenceBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakWoodBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakWoodBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenFenceGateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakPressurePlateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/LeavesBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenPressurePlateBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenSlabBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
@@ -164,12 +183,6 @@ Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quakin
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenWoodBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenWoodBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenWoodBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Faded_OakStairsBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Dreamscape\build\reobfJar\output.jar
@@ -177,152 +190,184 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Dreamscape\build\reobfJ
   META-INF/MANIFEST.MF
   META-INF/mods.toml
   assets/
-  assets/dream_scape/
-  assets/dream_scape/blockstates/
-  assets/dream_scape/blockstates/faded_oak_button.json
-  assets/dream_scape/blockstates/faded_oak_fence.json
-  assets/dream_scape/blockstates/faded_oak_fence_gate.json
-  assets/dream_scape/blockstates/faded_oak_leaves.json
-  assets/dream_scape/blockstates/faded_oak_log.json
-  assets/dream_scape/blockstates/faded_oak_planks.json
-  assets/dream_scape/blockstates/faded_oak_pressure_plate.json
-  assets/dream_scape/blockstates/faded_oak_slab.json
-  assets/dream_scape/blockstates/faded_oak_stairs.json
-  assets/dream_scape/blockstates/faded_oak_wood.json
-  assets/dream_scape/blockstates/quaking_aspen_button.json
-  assets/dream_scape/blockstates/quaking_aspen_fence.json
-  assets/dream_scape/blockstates/quaking_aspen_fence_gate.json
-  assets/dream_scape/blockstates/quaking_aspen_leaves.json
-  assets/dream_scape/blockstates/quaking_aspen_log.json
-  assets/dream_scape/blockstates/quaking_aspen_planks.json
-  assets/dream_scape/blockstates/quaking_aspen_pressure_plate.json
-  assets/dream_scape/blockstates/quaking_aspen_slab.json
-  assets/dream_scape/blockstates/quaking_aspen_stairs.json
-  assets/dream_scape/blockstates/quaking_aspen_wood.json
-  assets/dream_scape/lang/
-  assets/dream_scape/lang/en_us.json
-  assets/dream_scape/models/
-  assets/dream_scape/models/block/
-  assets/dream_scape/models/block/faded_oak_button.json
-  assets/dream_scape/models/block/faded_oak_button_inventory.json
-  assets/dream_scape/models/block/faded_oak_button_pressed.json
-  assets/dream_scape/models/block/faded_oak_fence.json
-  assets/dream_scape/models/block/faded_oak_fence_gate.json
-  assets/dream_scape/models/block/faded_oak_fence_gate_open.json
-  assets/dream_scape/models/block/faded_oak_fence_gate_wall.json
-  assets/dream_scape/models/block/faded_oak_fence_gate_wall_open.json
-  assets/dream_scape/models/block/faded_oak_fence_inventory.json
-  assets/dream_scape/models/block/faded_oak_fence_post.json
-  assets/dream_scape/models/block/faded_oak_leaves.json
-  assets/dream_scape/models/block/faded_oak_log.json
-  assets/dream_scape/models/block/faded_oak_planks.json
-  assets/dream_scape/models/block/faded_oak_pressure_plate.json
-  assets/dream_scape/models/block/faded_oak_pressure_plate_down.json
-  assets/dream_scape/models/block/faded_oak_slab.json
-  assets/dream_scape/models/block/faded_oak_slab_full.json
-  assets/dream_scape/models/block/faded_oak_slab_top.json
-  assets/dream_scape/models/block/faded_oak_stairs.json
-  assets/dream_scape/models/block/faded_oak_stairs_inner.json
-  assets/dream_scape/models/block/faded_oak_stairs_outer.json
-  assets/dream_scape/models/block/faded_oak_wood.json
-  assets/dream_scape/models/block/quaking_aspen_button.json
-  assets/dream_scape/models/block/quaking_aspen_button_inventory.json
-  assets/dream_scape/models/block/quaking_aspen_button_pressed.json
-  assets/dream_scape/models/block/quaking_aspen_fence.json
-  assets/dream_scape/models/block/quaking_aspen_fence_gate.json
-  assets/dream_scape/models/block/quaking_aspen_fence_gate_open.json
-  assets/dream_scape/models/block/quaking_aspen_fence_gate_wall.json
-  assets/dream_scape/models/block/quaking_aspen_fence_gate_wall_open.json
-  assets/dream_scape/models/block/quaking_aspen_fence_inventory.json
-  assets/dream_scape/models/block/quaking_aspen_fence_post.json
-  assets/dream_scape/models/block/quaking_aspen_leaves.json
-  assets/dream_scape/models/block/quaking_aspen_log.json
-  assets/dream_scape/models/block/quaking_aspen_planks.json
-  assets/dream_scape/models/block/quaking_aspen_pressure_plate.json
-  assets/dream_scape/models/block/quaking_aspen_pressure_plate_down.json
-  assets/dream_scape/models/block/quaking_aspen_slab.json
-  assets/dream_scape/models/block/quaking_aspen_slab_full.json
-  assets/dream_scape/models/block/quaking_aspen_slab_top.json
-  assets/dream_scape/models/block/quaking_aspen_stairs.json
-  assets/dream_scape/models/block/quaking_aspen_stairs_inner.json
-  assets/dream_scape/models/block/quaking_aspen_stairs_outer.json
-  assets/dream_scape/models/block/quaking_aspen_wood.json
-  assets/dream_scape/models/item/
-  assets/dream_scape/models/item/faded_oak_button.json
-  assets/dream_scape/models/item/faded_oak_fence.json
-  assets/dream_scape/models/item/faded_oak_fence_gate.json
-  assets/dream_scape/models/item/faded_oak_leaves.json
-  assets/dream_scape/models/item/faded_oak_log.json
-  assets/dream_scape/models/item/faded_oak_planks.json
-  assets/dream_scape/models/item/faded_oak_pressure_plate.json
-  assets/dream_scape/models/item/faded_oak_slab.json
-  assets/dream_scape/models/item/faded_oak_stairs.json
-  assets/dream_scape/models/item/faded_oak_wood.json
-  assets/dream_scape/models/item/quaking_aspen_button.json
-  assets/dream_scape/models/item/quaking_aspen_fence.json
-  assets/dream_scape/models/item/quaking_aspen_fence_gate.json
-  assets/dream_scape/models/item/quaking_aspen_leaves.json
-  assets/dream_scape/models/item/quaking_aspen_log.json
-  assets/dream_scape/models/item/quaking_aspen_planks.json
-  assets/dream_scape/models/item/quaking_aspen_pressure_plate.json
-  assets/dream_scape/models/item/quaking_aspen_slab.json
-  assets/dream_scape/models/item/quaking_aspen_stairs.json
-  assets/dream_scape/models/item/quaking_aspen_wood.json
-  assets/dream_scape/textures/
-  assets/dream_scape/textures/block/
-  assets/dream_scape/textures/block/faded_oak_leaves.png
-  assets/dream_scape/textures/block/faded_oak_log_side.png
-  assets/dream_scape/textures/block/faded_oak_log_top.png
-  assets/dream_scape/textures/block/faded_oak_planks.png
-  assets/dream_scape/textures/block/quaking_aspen_leaves.png
-  assets/dream_scape/textures/block/quaking_aspen_log_side.png
-  assets/dream_scape/textures/block/quaking_aspen_log_top.png
-  assets/dream_scape/textures/block/quaking_aspen_planks.png
+  assets/dreamscape/
+  assets/dreamscape/blockstates/
+  assets/dreamscape/blockstates/faded_dirt.json
+  assets/dreamscape/blockstates/faded_grass.json
+  assets/dreamscape/blockstates/faded_oak_button.json
+  assets/dreamscape/blockstates/faded_oak_fence.json
+  assets/dreamscape/blockstates/faded_oak_fence_gate.json
+  assets/dreamscape/blockstates/faded_oak_leaves.json
+  assets/dreamscape/blockstates/faded_oak_log.json
+  assets/dreamscape/blockstates/faded_oak_planks.json
+  assets/dreamscape/blockstates/faded_oak_pressure_plate.json
+  assets/dreamscape/blockstates/faded_oak_slab.json
+  assets/dreamscape/blockstates/faded_oak_stairs.json
+  assets/dreamscape/blockstates/faded_oak_wood.json
+  assets/dreamscape/blockstates/faded_sapling.json
+  assets/dreamscape/blockstates/faded_stone.json
+  assets/dreamscape/blockstates/quaking_aspen_button.json
+  assets/dreamscape/blockstates/quaking_aspen_fence.json
+  assets/dreamscape/blockstates/quaking_aspen_fence_gate.json
+  assets/dreamscape/blockstates/quaking_aspen_leaves.json
+  assets/dreamscape/blockstates/quaking_aspen_log.json
+  assets/dreamscape/blockstates/quaking_aspen_planks.json
+  assets/dreamscape/blockstates/quaking_aspen_pressure_plate.json
+  assets/dreamscape/blockstates/quaking_aspen_slab.json
+  assets/dreamscape/blockstates/quaking_aspen_stairs.json
+  assets/dreamscape/blockstates/quaking_aspen_wood.json
+  assets/dreamscape/lang/
+  assets/dreamscape/lang/en_us.json
+  assets/dreamscape/models/
+  assets/dreamscape/models/block/
+  assets/dreamscape/models/block/faded_dirt.json
+  assets/dreamscape/models/block/faded_grass.json
+  assets/dreamscape/models/block/faded_oak_button.json
+  assets/dreamscape/models/block/faded_oak_button_inventory.json
+  assets/dreamscape/models/block/faded_oak_button_pressed.json
+  assets/dreamscape/models/block/faded_oak_fence.json
+  assets/dreamscape/models/block/faded_oak_fence_gate.json
+  assets/dreamscape/models/block/faded_oak_fence_gate_open.json
+  assets/dreamscape/models/block/faded_oak_fence_gate_wall.json
+  assets/dreamscape/models/block/faded_oak_fence_gate_wall_open.json
+  assets/dreamscape/models/block/faded_oak_fence_inventory.json
+  assets/dreamscape/models/block/faded_oak_fence_post.json
+  assets/dreamscape/models/block/faded_oak_leaves.json
+  assets/dreamscape/models/block/faded_oak_log.json
+  assets/dreamscape/models/block/faded_oak_planks.json
+  assets/dreamscape/models/block/faded_oak_pressure_plate.json
+  assets/dreamscape/models/block/faded_oak_pressure_plate_down.json
+  assets/dreamscape/models/block/faded_oak_slab.json
+  assets/dreamscape/models/block/faded_oak_slab_full.json
+  assets/dreamscape/models/block/faded_oak_slab_top.json
+  assets/dreamscape/models/block/faded_oak_stairs.json
+  assets/dreamscape/models/block/faded_oak_stairs_inner.json
+  assets/dreamscape/models/block/faded_oak_stairs_outer.json
+  assets/dreamscape/models/block/faded_oak_wood.json
+  assets/dreamscape/models/block/faded_sapling.json
+  assets/dreamscape/models/block/faded_stone.json
+  assets/dreamscape/models/block/quaking_aspen_button.json
+  assets/dreamscape/models/block/quaking_aspen_button_inventory.json
+  assets/dreamscape/models/block/quaking_aspen_button_pressed.json
+  assets/dreamscape/models/block/quaking_aspen_fence.json
+  assets/dreamscape/models/block/quaking_aspen_fence_gate.json
+  assets/dreamscape/models/block/quaking_aspen_fence_gate_open.json
+  assets/dreamscape/models/block/quaking_aspen_fence_gate_wall.json
+  assets/dreamscape/models/block/quaking_aspen_fence_gate_wall_open.json
+  assets/dreamscape/models/block/quaking_aspen_fence_inventory.json
+  assets/dreamscape/models/block/quaking_aspen_fence_post.json
+  assets/dreamscape/models/block/quaking_aspen_leaves.json
+  assets/dreamscape/models/block/quaking_aspen_log.json
+  assets/dreamscape/models/block/quaking_aspen_planks.json
+  assets/dreamscape/models/block/quaking_aspen_pressure_plate.json
+  assets/dreamscape/models/block/quaking_aspen_pressure_plate_down.json
+  assets/dreamscape/models/block/quaking_aspen_slab.json
+  assets/dreamscape/models/block/quaking_aspen_slab_full.json
+  assets/dreamscape/models/block/quaking_aspen_slab_top.json
+  assets/dreamscape/models/block/quaking_aspen_stairs.json
+  assets/dreamscape/models/block/quaking_aspen_stairs_inner.json
+  assets/dreamscape/models/block/quaking_aspen_stairs_outer.json
+  assets/dreamscape/models/block/quaking_aspen_wood.json
+  assets/dreamscape/models/custom/
+  assets/dreamscape/models/custom/tree_model.json
+  assets/dreamscape/models/item/
+  assets/dreamscape/models/item/faded_dirt.json
+  assets/dreamscape/models/item/faded_grass.json
+  assets/dreamscape/models/item/faded_oak_button.json
+  assets/dreamscape/models/item/faded_oak_fence.json
+  assets/dreamscape/models/item/faded_oak_fence_gate.json
+  assets/dreamscape/models/item/faded_oak_leaves.json
+  assets/dreamscape/models/item/faded_oak_log.json
+  assets/dreamscape/models/item/faded_oak_planks.json
+  assets/dreamscape/models/item/faded_oak_pressure_plate.json
+  assets/dreamscape/models/item/faded_oak_slab.json
+  assets/dreamscape/models/item/faded_oak_stairs.json
+  assets/dreamscape/models/item/faded_oak_wood.json
+  assets/dreamscape/models/item/faded_sapling.json
+  assets/dreamscape/models/item/faded_stone.json
+  assets/dreamscape/models/item/quaking_aspen_button.json
+  assets/dreamscape/models/item/quaking_aspen_fence.json
+  assets/dreamscape/models/item/quaking_aspen_fence_gate.json
+  assets/dreamscape/models/item/quaking_aspen_leaves.json
+  assets/dreamscape/models/item/quaking_aspen_log.json
+  assets/dreamscape/models/item/quaking_aspen_planks.json
+  assets/dreamscape/models/item/quaking_aspen_pressure_plate.json
+  assets/dreamscape/models/item/quaking_aspen_slab.json
+  assets/dreamscape/models/item/quaking_aspen_stairs.json
+  assets/dreamscape/models/item/quaking_aspen_wood.json
+  assets/dreamscape/textures/
+  assets/dreamscape/textures/block/
+  assets/dreamscape/textures/block/faded_dirt.png
+  assets/dreamscape/textures/block/faded_grass_side.png
+  assets/dreamscape/textures/block/faded_grass_top.png
+  assets/dreamscape/textures/block/faded_oak_leaves.png
+  assets/dreamscape/textures/block/faded_oak_log_side.png
+  assets/dreamscape/textures/block/faded_oak_log_top.png
+  assets/dreamscape/textures/block/faded_oak_planks.png
+  assets/dreamscape/textures/block/faded_oak_sapling.png
+  assets/dreamscape/textures/block/faded_stone.png
+  assets/dreamscape/textures/block/quaking_aspen_leaves.png
+  assets/dreamscape/textures/block/quaking_aspen_log_side.png
+  assets/dreamscape/textures/block/quaking_aspen_log_top.png
+  assets/dreamscape/textures/block/quaking_aspen_planks.png
+  assets/dreamscape/textures/item/
+  assets/dreamscape/textures/item/faded_oak_sapling.png
   data/
-  data/dream_scape/
-  data/dream_scape/loot_tables/
-  data/dream_scape/loot_tables/blocks/
-  data/dream_scape/loot_tables/blocks/faded_oak_button.json
-  data/dream_scape/loot_tables/blocks/faded_oak_fence.json
-  data/dream_scape/loot_tables/blocks/faded_oak_fence_gate.json
-  data/dream_scape/loot_tables/blocks/faded_oak_leaves.json
-  data/dream_scape/loot_tables/blocks/faded_oak_log.json
-  data/dream_scape/loot_tables/blocks/faded_oak_planks.json
-  data/dream_scape/loot_tables/blocks/faded_oak_pressure_plate.json
-  data/dream_scape/loot_tables/blocks/faded_oak_slab.json
-  data/dream_scape/loot_tables/blocks/faded_oak_stairs.json
-  data/dream_scape/loot_tables/blocks/faded_oak_wood.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_button.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_fence.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_fence_gate.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_leaves.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_log.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_planks.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_pressure_plate.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_slab.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_stairs.json
-  data/dream_scape/loot_tables/blocks/quaking_aspen_wood.json
-  data/dream_scape/recipes/
-  data/dream_scape/recipes/faded_oak_button_recipe.json
-  data/dream_scape/recipes/faded_oak_fence_gate_recipe.json
-  data/dream_scape/recipes/faded_oak_fence_recipe.json
-  data/dream_scape/recipes/faded_oak_planks_log_recipe.json
-  data/dream_scape/recipes/faded_oak_planks_wood_recipe.json
-  data/dream_scape/recipes/faded_oak_pressure_plate_recipe.json
-  data/dream_scape/recipes/faded_oak_slab_recipe.json
-  data/dream_scape/recipes/faded_oak_stairs_recipe.json
-  data/dream_scape/recipes/faded_oak_stick_recipe.json
-  data/dream_scape/recipes/faded_oak_wood_recipe.json
-  data/dream_scape/recipes/quaking_aspen_button_recipe.json
-  data/dream_scape/recipes/quaking_aspen_fence_gate_recipe.json
-  data/dream_scape/recipes/quaking_aspen_fence_recipe.json
-  data/dream_scape/recipes/quaking_aspen_planks_log_recipe.json
-  data/dream_scape/recipes/quaking_aspen_planks_wood_recipe.json
-  data/dream_scape/recipes/quaking_aspen_pressure_plate_recipe.json
-  data/dream_scape/recipes/quaking_aspen_slab_recipe.json
-  data/dream_scape/recipes/quaking_aspen_stairs_recipe.json
-  data/dream_scape/recipes/quaking_aspen_stick_recipe.json
-  data/dream_scape/recipes/quaking_aspen_wood_recipe.json
+  data/dreamscape/
+  data/dreamscape/loot_tables/
+  data/dreamscape/loot_tables/blocks/
+  data/dreamscape/loot_tables/blocks/faded_dirt.json
+  data/dreamscape/loot_tables/blocks/faded_grass.json
+  data/dreamscape/loot_tables/blocks/faded_oak_button.json
+  data/dreamscape/loot_tables/blocks/faded_oak_fence.json
+  data/dreamscape/loot_tables/blocks/faded_oak_fence_gate.json
+  data/dreamscape/loot_tables/blocks/faded_oak_leaves.json
+  data/dreamscape/loot_tables/blocks/faded_oak_log.json
+  data/dreamscape/loot_tables/blocks/faded_oak_planks.json
+  data/dreamscape/loot_tables/blocks/faded_oak_pressure_plate.json
+  data/dreamscape/loot_tables/blocks/faded_oak_slab.json
+  data/dreamscape/loot_tables/blocks/faded_oak_stairs.json
+  data/dreamscape/loot_tables/blocks/faded_oak_wood.json
+  data/dreamscape/loot_tables/blocks/faded_sapling.json
+  data/dreamscape/loot_tables/blocks/faded_stone.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_button.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_fence.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_fence_gate.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_leaves.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_log.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_planks.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_pressure_plate.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_slab.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_stairs.json
+  data/dreamscape/loot_tables/blocks/quaking_aspen_wood.json
+  data/dreamscape/recipes/
+  data/dreamscape/recipes/faded_oak_button_recipe.json
+  data/dreamscape/recipes/faded_oak_fence_gate_recipe.json
+  data/dreamscape/recipes/faded_oak_fence_recipe.json
+  data/dreamscape/recipes/faded_oak_planks_log_recipe.json
+  data/dreamscape/recipes/faded_oak_planks_wood_recipe.json
+  data/dreamscape/recipes/faded_oak_pressure_plate_recipe.json
+  data/dreamscape/recipes/faded_oak_slab_recipe.json
+  data/dreamscape/recipes/faded_oak_stairs_recipe.json
+  data/dreamscape/recipes/faded_oak_stick_recipe.json
+  data/dreamscape/recipes/faded_oak_wood_recipe.json
+  data/dreamscape/recipes/quaking_aspen_button_recipe.json
+  data/dreamscape/recipes/quaking_aspen_fence_gate_recipe.json
+  data/dreamscape/recipes/quaking_aspen_fence_recipe.json
+  data/dreamscape/recipes/quaking_aspen_planks_log_recipe.json
+  data/dreamscape/recipes/quaking_aspen_planks_wood_recipe.json
+  data/dreamscape/recipes/quaking_aspen_pressure_plate_recipe.json
+  data/dreamscape/recipes/quaking_aspen_slab_recipe.json
+  data/dreamscape/recipes/quaking_aspen_stairs_recipe.json
+  data/dreamscape/recipes/quaking_aspen_stick_recipe.json
+  data/dreamscape/recipes/quaking_aspen_wood_recipe.json
+  data/dreamscape/structures/
+  data/dreamscape/structures/quakingaspen1.nbt
+  data/dreamscape/structures/quakingaspen2.nbt
+  data/dreamscape/structures/quakingaspen3.nbt
+  data/dreamscape/tags/
+  data/dreamscape/tags/blocks/
+  data/dreamscape/tags/blocks/saplingplaceables.json
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
@@ -336,8 +381,12 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Dreamscape\build\reobfJ
   io/github/
   io/github/errordude42/
   io/github/errordude42/dreamscape/
-  io/github/errordude42/dreamscape/DreamScapeMod.class
+  io/github/errordude42/dreamscape/DreamscapeMod.class
   io/github/errordude42/dreamscape/block/
+  io/github/errordude42/dreamscape/block/FadedDirtBlock.class
+  io/github/errordude42/dreamscape/block/FadedGrassBlock.class
+  io/github/errordude42/dreamscape/block/FadedSaplingBlock.class
+  io/github/errordude42/dreamscape/block/FadedStoneBlock.class
   io/github/errordude42/dreamscape/block/Faded_OakButtonBlock.class
   io/github/errordude42/dreamscape/block/Faded_OakFenceBlock.class
   io/github/errordude42/dreamscape/block/Faded_OakFenceGateBlock.class
@@ -359,7 +408,9 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Dreamscape\build\reobfJ
   io/github/errordude42/dreamscape/block/Quaking_AspenStairsBlock.class
   io/github/errordude42/dreamscape/block/Quaking_AspenWoodBlock.class
   io/github/errordude42/dreamscape/init/
-  io/github/errordude42/dreamscape/init/DreamScapeModBlocks.class
-  io/github/errordude42/dreamscape/init/DreamScapeModItems.class
-  io/github/errordude42/dreamscape/init/DreamScapeModTabs.class
+  io/github/errordude42/dreamscape/init/DreamscapeModBlocks.class
+  io/github/errordude42/dreamscape/init/DreamscapeModItems.class
+  io/github/errordude42/dreamscape/init/DreamscapeModTabs.class
+  io/github/errordude42/dreamscape/procedures/
+  io/github/errordude42/dreamscape/procedures/FadedTreeVar1Procedure.class
   pack.mcmeta

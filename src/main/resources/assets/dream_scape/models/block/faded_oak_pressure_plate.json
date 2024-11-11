@@ -1,8 +1,0 @@
-{
-  "parent": "block/pressure_plate_up",
-  "textures": {
-    "particle": "dream_scape:block/faded_oak_planks",
-    "texture": "dream_scape:block/faded_oak_planks"
-  },
-  "render_type": "solid"
-}

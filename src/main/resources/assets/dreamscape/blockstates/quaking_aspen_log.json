@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dreamscape:block/quaking_aspen_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dreamscape:block/quaking_aspen_log"
+    },
+    "axis=z": {
+      "model": "dreamscape:block/quaking_aspen_log",
+      "x": 90
+    }
+  }
+}

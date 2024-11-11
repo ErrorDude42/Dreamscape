@@ -1,8 +1,0 @@
-{
-  "parent": "block/pressure_plate_up",
-  "textures": {
-    "particle": "dream_scape:block/quaking_aspen_planks",
-    "texture": "dream_scape:block/quaking_aspen_planks"
-  },
-  "render_type": "solid"
-}

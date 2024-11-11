@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dream_scape:faded_oak_fence",
-    "dream_scape:quaking_aspen_fence"
+    "dreamscape:faded_oak_fence",
+    "dreamscape:quaking_aspen_fence"
   ]
 }

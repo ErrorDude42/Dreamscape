@@ -1,0 +1,9 @@
+{
+  "parent": "dreamscape:custom/tree_model",
+  "textures": {
+    "all": "dreamscape:block/faded_oak_sapling",
+    "particle": "dreamscape:block/faded_oak_sapling",
+    "0": "dreamscape:block/faded_oak_sapling"
+  },
+  "render_type": "cutout"
+}

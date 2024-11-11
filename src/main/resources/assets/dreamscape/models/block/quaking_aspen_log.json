@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreamscape:block/quaking_aspen_log_top",
+    "up": "dreamscape:block/quaking_aspen_log_top",
+    "north": "dreamscape:block/quaking_aspen_log_side",
+    "east": "dreamscape:block/quaking_aspen_log_side",
+    "south": "dreamscape:block/quaking_aspen_log_side",
+    "west": "dreamscape:block/quaking_aspen_log_side",
+    "particle": "dreamscape:block/quaking_aspen_log_top"
+  },
+  "render_type": "solid"
+}

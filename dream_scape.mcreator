@@ -8,11 +8,11 @@
       "registry_name": "quaking_aspen_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_wood.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_wood.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_wood.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenWoodBlock.java",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_wood.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_wood.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_wood.json"
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_wood.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_wood.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -25,11 +25,11 @@
       "registry_name": "quaking_aspen_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_log.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_log.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_log.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_log.json",
-          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock.java"
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_log.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_log.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_log.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenLogBlock.java",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_log.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -42,11 +42,11 @@
       "registry_name": "quaking_aspen_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_planks.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_planks.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_planks.json",
-          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_planks.json"
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_planks.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_planks.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_planks.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_planks.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenPlanksBlock.java"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -59,11 +59,11 @@
       "registry_name": "quaking_aspen_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_leaves.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_leaves.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_leaves.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_leaves.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_leaves.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenLeavesBlock.java",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_leaves.json"
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_leaves.json",
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_leaves.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -76,13 +76,13 @@
       "registry_name": "quaking_aspen_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_stairs.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_stairs.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_stairs_inner.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_stairs_outer.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_stairs.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_stairs.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_stairs_outer.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_stairs_inner.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_stairs.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_stairs.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenStairsBlock.java",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_stairs.json"
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_stairs.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -95,13 +95,13 @@
       "registry_name": "quaking_aspen_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_slab.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_slab.json",
-          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenSlabBlock.java",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_slab.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_slab.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_slab_full.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_slab_top.json"
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_slab.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_slab.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_slab_top.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_slab.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_slab_full.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_slab.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenSlabBlock.java"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -115,12 +115,12 @@
       "metadata": {
         "files": [
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenFenceBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_fence.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_inventory.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_fence.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_fence.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_post.json"
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_fence.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence.json",
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_fence.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_inventory.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_fence.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_post.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -133,14 +133,14 @@
       "registry_name": "quaking_aspen_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_gate.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenFenceGateBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_gate_wall.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_gate_open.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_fence_gate.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_fence_gate_wall_open.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_fence_gate.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_fence_gate.json"
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_gate_open.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_fence_gate.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_gate_wall_open.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_gate_wall.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_fence_gate.json",
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_fence_gate.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_fence_gate.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -153,12 +153,12 @@
       "registry_name": "quaking_aspen_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_pressure_plate.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_pressure_plate.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenPressurePlateBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_pressure_plate_down.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_pressure_plate.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_pressure_plate.json"
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_pressure_plate_down.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/Quaking Apsen"
@@ -171,12 +171,12 @@
       "registry_name": "quaking_aspen_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_button_pressed.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/quaking_aspen_button.json",
-          "src/main/resources/assets/dream_scape/blockstates/quaking_aspen_button.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_button_inventory.json",
-          "src/main/resources/assets/dream_scape/models/block/quaking_aspen_button.json",
-          "src/main/resources/assets/dream_scape/models/item/quaking_aspen_button.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_button.json",
+          "src/main/resources/assets/dreamscape/models/item/quaking_aspen_button.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_button_pressed.json",
+          "src/main/resources/assets/dreamscape/blockstates/quaking_aspen_button.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/quaking_aspen_button.json",
+          "src/main/resources/assets/dreamscape/models/block/quaking_aspen_button_inventory.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Quaking_AspenButtonBlock.java"
         ]
       },
@@ -190,10 +190,10 @@
       "registry_name": "quaking_aspen_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_wood_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_wood_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenPlanksLogRecipe",
@@ -203,10 +203,10 @@
       "registry_name": "quaking_aspen_planks_log_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_planks_log_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_planks_log_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenPlanksWoodRecipe",
@@ -216,10 +216,10 @@
       "registry_name": "quaking_aspen_planks_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_planks_wood_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_planks_wood_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenStairsRecipe",
@@ -229,10 +229,10 @@
       "registry_name": "quaking_aspen_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_stairs_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_stairs_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenSlabRecipe",
@@ -242,10 +242,10 @@
       "registry_name": "quaking_aspen_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_slab_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenFenceRecipe",
@@ -255,10 +255,10 @@
       "registry_name": "quaking_aspen_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_fence_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_fence_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenFenceGateRecipe",
@@ -268,10 +268,10 @@
       "registry_name": "quaking_aspen_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_fence_gate_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_fence_gate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenPressurePlateRecipe",
@@ -281,10 +281,10 @@
       "registry_name": "quaking_aspen_pressure_plate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_pressure_plate_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenButtonRecipe",
@@ -294,10 +294,10 @@
       "registry_name": "quaking_aspen_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_button_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_button_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Quaking_AspenStickRecipe",
@@ -307,10 +307,10 @@
       "registry_name": "quaking_aspen_stick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/quaking_aspen_stick_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/quaking_aspen_stick_recipe.json"
         ]
       },
-      "path": "~/Blocks/Quaking Apsen"
+      "path": "~/Blocks/Quaking Apsen/Recipes"
     },
     {
       "name": "Faded_OakWood",
@@ -320,11 +320,11 @@
       "registry_name": "faded_oak_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_wood.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_wood.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_wood.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_wood.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_wood.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_wood.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakWoodBlock.java",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_wood.json"
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_wood.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -337,11 +337,11 @@
       "registry_name": "faded_oak_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_log.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_log.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_log.json",
-          "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakLogBlock.java",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_log.json"
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_log.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_log.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_log.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_log.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakLogBlock.java"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -354,11 +354,11 @@
       "registry_name": "faded_oak_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_planks.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_planks.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_planks.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_planks.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_planks.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakPlanksBlock.java",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_planks.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_planks.json"
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_planks.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -372,10 +372,10 @@
       "metadata": {
         "files": [
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakLeavesBlock.java",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_leaves.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_leaves.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_leaves.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_leaves.json"
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_leaves.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_leaves.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_leaves.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_leaves.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -388,13 +388,13 @@
       "registry_name": "faded_oak_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_stairs.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_stairs.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_stairs.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_stairs_outer.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakStairsBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_stairs_outer.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_stairs_inner.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_stairs.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_stairs.json"
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_stairs.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_stairs_inner.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_stairs.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_stairs.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -407,13 +407,13 @@
       "registry_name": "faded_oak_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_slab.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakSlabBlock.java",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_slab.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_slab_top.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_slab.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_slab.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_slab_full.json"
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_slab_full.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_slab_top.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_slab.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_slab.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_slab.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_slab.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -426,13 +426,13 @@
       "registry_name": "faded_oak_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakFenceBlock.java",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_fence.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_fence.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_fence.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_post.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_inventory.json"
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_post.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_fence.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_fence.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_fence.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_inventory.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -445,14 +445,14 @@
       "registry_name": "faded_oak_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_gate_open.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_fence_gate.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_gate_wall.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_fence_gate.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_gate.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_fence_gate.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_fence_gate.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_gate_wall.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_gate_wall_open.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_fence_gate.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_gate_open.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakFenceGateBlock.java",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_fence_gate.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_fence_gate_wall_open.json"
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_fence_gate.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -465,12 +465,12 @@
       "registry_name": "faded_oak_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_pressure_plate.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_pressure_plate.json",
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_pressure_plate.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_pressure_plate.json",
-          "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakPressurePlateBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_pressure_plate_down.json"
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_pressure_plate.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_pressure_plate.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_pressure_plate_down.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakPressurePlateBlock.java"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -483,13 +483,13 @@
       "registry_name": "faded_oak_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_scape/models/item/faded_oak_button.json",
-          "src/main/resources/assets/dream_scape/blockstates/faded_oak_button.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_oak_button.json",
           "src/main/java/io/github/errordude42/dreamscape/block/Faded_OakButtonBlock.java",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_button_pressed.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_button.json",
-          "src/main/resources/data/dream_scape/loot_tables/blocks/faded_oak_button.json",
-          "src/main/resources/assets/dream_scape/models/block/faded_oak_button_inventory.json"
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_button.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_button_pressed.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_oak_button.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_oak_button.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_oak_button_inventory.json"
         ]
       },
       "path": "~/Blocks/Faded Oak"
@@ -502,10 +502,10 @@
       "registry_name": "faded_oak_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_wood_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_wood_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakPlanksLogRecipe",
@@ -515,10 +515,10 @@
       "registry_name": "faded_oak_planks_log_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_planks_log_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_planks_log_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakPlanksWoodRecipe",
@@ -528,10 +528,10 @@
       "registry_name": "faded_oak_planks_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_planks_wood_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_planks_wood_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakStairsRecipe",
@@ -541,10 +541,10 @@
       "registry_name": "faded_oak_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_stairs_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_stairs_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakSlabRecipe",
@@ -554,10 +554,10 @@
       "registry_name": "faded_oak_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_slab_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_slab_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakFenceRecipe",
@@ -567,10 +567,10 @@
       "registry_name": "faded_oak_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_fence_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_fence_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakFenceGateRecipe",
@@ -580,10 +580,10 @@
       "registry_name": "faded_oak_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_fence_gate_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_fence_gate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakPressurePlateRecipe",
@@ -593,10 +593,10 @@
       "registry_name": "faded_oak_pressure_plate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_pressure_plate_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakButtonRecipe",
@@ -606,10 +606,10 @@
       "registry_name": "faded_oak_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_button_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_button_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "Faded_OakStickRecipe",
@@ -619,10 +619,10 @@
       "registry_name": "faded_oak_stick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_scape/recipes/faded_oak_stick_recipe.json"
+          "src/main/resources/data/dreamscape/recipes/faded_oak_stick_recipe.json"
         ]
       },
-      "path": "~/Blocks/Faded Oak"
+      "path": "~/Blocks/Faded Oak/Recipes"
     },
     {
       "name": "DreamScape",
@@ -633,6 +633,105 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "FadedGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_grass.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/FadedGrassBlock.java",
+          "src/main/resources/assets/dreamscape/models/item/faded_grass.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_grass.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_grass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FadedDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamscape/blockstates/faded_dirt.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_dirt.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/FadedDirtBlock.java",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_dirt.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_dirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FadedStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreamscape/models/block/faded_stone.json",
+          "src/main/java/io/github/errordude42/dreamscape/block/FadedStoneBlock.java",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_stone.json",
+          "src/main/resources/assets/dreamscape/models/item/faded_stone.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FadedSapling",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/dreamscape/block/FadedSaplingBlock.java",
+          "src/main/resources/assets/dreamscape/models/item/faded_sapling.json",
+          "src/main/resources/data/dreamscape/loot_tables/blocks/faded_sapling.json",
+          "src/main/resources/assets/dreamscape/models/block/faded_sapling.json",
+          "src/main/resources/assets/dreamscape/blockstates/faded_sapling.json"
+        ]
+      },
+      "path": "~/Blocks/Faded Oak"
+    },
+    {
+      "name": "FadedTreeVar1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_tree_var_1",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/dreamscape/procedures/FadedTreeVar1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Faded Oak/Sapling Mechanics /Trees"
     }
   ],
   "variable_elements": [],
@@ -658,6 +757,11 @@
       "~CUSTOM:Faded_OakFence",
       "~CUSTOM:Quaking_AspenFence"
     ],
+    "BLOCKS:dreamscape:saplingplaceables": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
+    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Faded_OakStairs",
       "~CUSTOM:Quaking_AspenStairs"
@@ -666,26 +770,51 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.dreamscape.faded_oak_wood": "Faded Oak Wood",
       "block.dream_scape.quaking_aspen_fence": "Quaking_Aspen Fence",
-      "block.dream_scape.quaking_aspen_slab": "Quaking_Aspen Slab",
-      "block.dream_scape.faded_oak_fence_gate": "Faded_Oak Fence Gate",
-      "item_group.dream_scape.dream_scape": "Dream Scape",
-      "block.dream_scape.faded_oak_wood": "Faded_Oak Wood",
       "block.dream_scape.faded_oak_planks": "Faded_Oak Planks",
-      "block.dream_scape.faded_oak_fence": "Faded_Oak Fence",
-      "block.dream_scape.quaking_aspen_planks": "Quaking_Aspen Planks",
-      "block.dream_scape.quaking_aspen_button": "Quaking_Aspen Button",
-      "block.dream_scape.faded_oak_stairs": "Faded_Oak Stairs",
+      "block.dream_scape.faded_oak_wood": "Faded_Oak Wood",
+      "block.dreamscape.faded_oak_stairs": "Faded Oak Stairs",
+      "block.dreamscape.quaking_aspen_pressure_plate": "Quaking Aspen Pressure Plate",
       "block.dream_scape.faded_oak_pressure_plate": "Faded_Oak Pressure Plate",
-      "block.dream_scape.quaking_aspen_log": "Quaking_Aspen Log",
-      "block.dream_scape.quaking_aspen_stairs": "Quaking_Aspen Stairs",
+      "block.dreamscape.quaking_aspen_fence_gate": "Quaking Aspen Fence Gate",
+      "block.dreamscape.faded_oak_log": "Faded Oak Log",
       "block.dream_scape.quaking_aspen_pressure_plate": "Quaking_Aspen Pressure Plate",
       "block.dream_scape.quaking_aspen_fence_gate": "Quaking_Aspen Fence Gate",
       "block.dream_scape.faded_oak_button": "Faded_Oak Button",
-      "block.dream_scape.faded_oak_log": "Faded_Oak Log",
+      "block.dreamscape.faded_oak_button": "Faded Oak Button",
+      "block.dreamscape.faded_oak_fence": "Faded Oak Fence",
+      "block.dreamscape.quaking_aspen_stairs": "Quaking Aspen Stairs",
+      "block.dreamscape.quaking_aspen_slab": "Quaking Aspen Slab",
       "block.dream_scape.faded_oak_slab": "Faded_Oak Slab",
+      "block.dreamscape.quaking_aspen_leaves": "Quaking Aspen Leaves",
       "block.dream_scape.quaking_aspen_wood": "Quaking_Aspen Wood",
+      "block.dreamscape.faded_grass": "Faded Grass",
+      "block.dreamscape.faded_dirt": "Faded Dirt",
+      "block.dreamscape.faded_oak_planks": "Faded Oak Planks",
       "block.dream_scape.quaking_aspen_leaves": "Quaking_Aspen Leaves",
+      "block.dreamscape.faded_oak_fence_gate": "Faded Oak Fence Gate",
+      "block.dreamscape.quaking_aspen_fence": "Quaking Aspen Fence",
+      "block.dream_scape.quaking_aspen_slab": "Quaking_Aspen Slab",
+      "block.dream_scape.faded_oak_fence_gate": "Faded_Oak Fence Gate",
+      "item_group.dream_scape.dream_scape": "DreamScape",
+      "block.dream_scape.faded_oak_fence": "Faded_Oak Fence",
+      "block.dreamscape.quaking_aspen_button": "Quaking Aspen Button",
+      "block.dream_scape.quaking_aspen_planks": "Quaking_Aspen Planks",
+      "block.dream_scape.quaking_aspen_button": "Quaking_Aspen Button",
+      "block.dreamscape.faded_stone": "Faded Stone",
+      "block.dream_scape.faded_oak_stairs": "Faded_Oak Stairs",
+      "block.dreamscape.quaking_aspen_planks": "Quaking Aspen Planks",
+      "block.dreamscape.faded_oak_leaves": "Faded Oak Leaves",
+      "block.dreamscape.faded_sapling": "Faded Sapling",
+      "block.dream_scape.quaking_aspen_stairs": "Quaking_Aspen Stairs",
+      "block.dream_scape.quaking_aspen_log": "Quaking_Aspen Log",
+      "item_group.dreamscape.dream_scape": "DreamScape",
+      "block.dreamscape.quaking_aspen_wood": "Quaking Aspen Wood",
+      "block.dreamscape.faded_oak_pressure_plate": "Faded Oak Pressure Plate",
+      "block.dream_scape.faded_oak_log": "Faded_Oak Log",
+      "block.dreamscape.faded_oak_slab": "Faded Oak Slab",
+      "block.dreamscape.quaking_aspen_log": "Quaking Aspen Log",
       "block.dream_scape.faded_oak_leaves": "Faded_Oak Leaves"
     }
   },
@@ -709,19 +838,42 @@
         "children": [
           {
             "name": "Quaking Apsen",
-            "children": []
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              },
+              {
+                "name": "Sapling Mechanics",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Faded Oak",
-            "children": []
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              },
+              {
+                "name": "Sapling Mechanics ",
+                "children": [
+                  {
+                    "name": "Trees",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ]
   },
   "workspaceSettings": {
-    "modid": "dream_scape",
-    "modName": "Dream Scape",
+    "modid": "dreamscape",
+    "modName": "DreamScape",
     "version": "0.0.1dev",
     "author": "crtca, MCreator",
     "websiteURL": "https://mcreator.net",

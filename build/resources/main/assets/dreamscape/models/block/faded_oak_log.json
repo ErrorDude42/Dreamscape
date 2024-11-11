@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dreamscape:block/faded_oak_log_top",
+    "up": "dreamscape:block/faded_oak_log_top",
+    "north": "dreamscape:block/faded_oak_log_side",
+    "east": "dreamscape:block/faded_oak_log_side",
+    "south": "dreamscape:block/faded_oak_log_side",
+    "west": "dreamscape:block/faded_oak_log_side",
+    "particle": "dreamscape:block/faded_oak_log_top"
+  },
+  "render_type": "solid"
+}

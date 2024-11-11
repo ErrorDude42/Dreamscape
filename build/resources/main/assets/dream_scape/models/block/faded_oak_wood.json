@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dream_scape:block/faded_oak_log_side",
-    "particle": "dream_scape:block/faded_oak_log_side"
-  },
-  "render_type": "solid"
-}

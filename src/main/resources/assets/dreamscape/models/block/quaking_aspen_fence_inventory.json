@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "dreamscape:block/quaking_aspen_planks",
+    "particle": "dreamscape:block/quaking_aspen_planks"
+  },
+  "render_type": "solid"
+}

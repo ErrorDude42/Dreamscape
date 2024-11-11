@@ -30,10 +30,14 @@ import io.github.errordude42.dreamscape.block.Faded_OakLeavesBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakFenceGateBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakFenceBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakButtonBlock;
-import io.github.errordude42.dreamscape.DreamScapeMod;
+import io.github.errordude42.dreamscape.block.FadedStoneBlock;
+import io.github.errordude42.dreamscape.block.FadedSaplingBlock;
+import io.github.errordude42.dreamscape.block.FadedGrassBlock;
+import io.github.errordude42.dreamscape.block.FadedDirtBlock;
+import io.github.errordude42.dreamscape.DreamscapeMod;
 
-public class DreamScapeModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DreamScapeMod.MODID);
+public class DreamscapeModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DreamscapeMod.MODID);
 	public static final RegistryObject<Block> QUAKING_ASPEN_WOOD = REGISTRY.register("quaking_aspen_wood", () -> new Quaking_AspenWoodBlock());
 	public static final RegistryObject<Block> QUAKING_ASPEN_LOG = REGISTRY.register("quaking_aspen_log", () -> new Quaking_AspenLogBlock());
 	public static final RegistryObject<Block> QUAKING_ASPEN_PLANKS = REGISTRY.register("quaking_aspen_planks", () -> new Quaking_AspenPlanksBlock());
@@ -54,6 +58,10 @@ public class DreamScapeModBlocks {
 	public static final RegistryObject<Block> FADED_OAK_FENCE_GATE = REGISTRY.register("faded_oak_fence_gate", () -> new Faded_OakFenceGateBlock());
 	public static final RegistryObject<Block> FADED_OAK_PRESSURE_PLATE = REGISTRY.register("faded_oak_pressure_plate", () -> new Faded_OakPressurePlateBlock());
 	public static final RegistryObject<Block> FADED_OAK_BUTTON = REGISTRY.register("faded_oak_button", () -> new Faded_OakButtonBlock());
+	public static final RegistryObject<Block> FADED_GRASS = REGISTRY.register("faded_grass", () -> new FadedGrassBlock());
+	public static final RegistryObject<Block> FADED_DIRT = REGISTRY.register("faded_dirt", () -> new FadedDirtBlock());
+	public static final RegistryObject<Block> FADED_STONE = REGISTRY.register("faded_stone", () -> new FadedStoneBlock());
+	public static final RegistryObject<Block> FADED_SAPLING = REGISTRY.register("faded_sapling", () -> new FadedSaplingBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
