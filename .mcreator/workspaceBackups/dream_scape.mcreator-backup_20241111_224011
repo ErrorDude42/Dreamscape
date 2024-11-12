@@ -701,6 +701,37 @@
         ]
       },
       "path": "~/Blocks/Faded Oak"
+    },
+    {
+      "name": "FadedTreeVar1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faded_tree_var_1",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/dreamscape/procedures/FadedTreeVar1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Faded Oak/Sapling Mechanics /Trees"
     }
   ],
   "variable_elements": [],
@@ -726,6 +757,11 @@
       "~CUSTOM:Faded_OakFence",
       "~CUSTOM:Quaking_AspenFence"
     ],
+    "BLOCKS:dreamscape:saplingplaceables": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
+    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:Faded_OakStairs",
       "~CUSTOM:Quaking_AspenStairs"
@@ -734,51 +770,51 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.dreamscape.faded_oak_wood": "Faded_Oak Wood",
+      "block.dreamscape.faded_oak_wood": "Faded Oak Wood",
       "block.dream_scape.quaking_aspen_fence": "Quaking_Aspen Fence",
       "block.dream_scape.faded_oak_planks": "Faded_Oak Planks",
       "block.dream_scape.faded_oak_wood": "Faded_Oak Wood",
-      "block.dreamscape.faded_oak_stairs": "Faded_Oak Stairs",
-      "block.dreamscape.quaking_aspen_pressure_plate": "Quaking_Aspen Pressure Plate",
+      "block.dreamscape.faded_oak_stairs": "Faded Oak Stairs",
+      "block.dreamscape.quaking_aspen_pressure_plate": "Quaking Aspen Pressure Plate",
       "block.dream_scape.faded_oak_pressure_plate": "Faded_Oak Pressure Plate",
-      "block.dreamscape.quaking_aspen_fence_gate": "Quaking_Aspen Fence Gate",
-      "block.dreamscape.faded_oak_log": "Faded_Oak Log",
+      "block.dreamscape.quaking_aspen_fence_gate": "Quaking Aspen Fence Gate",
+      "block.dreamscape.faded_oak_log": "Faded Oak Log",
       "block.dream_scape.quaking_aspen_pressure_plate": "Quaking_Aspen Pressure Plate",
       "block.dream_scape.quaking_aspen_fence_gate": "Quaking_Aspen Fence Gate",
       "block.dream_scape.faded_oak_button": "Faded_Oak Button",
-      "block.dreamscape.faded_oak_button": "Faded_Oak Button",
-      "block.dreamscape.faded_oak_fence": "Faded_Oak Fence",
-      "block.dreamscape.quaking_aspen_stairs": "Quaking_Aspen Stairs",
-      "block.dreamscape.quaking_aspen_slab": "Quaking_Aspen Slab",
+      "block.dreamscape.faded_oak_button": "Faded Oak Button",
+      "block.dreamscape.faded_oak_fence": "Faded Oak Fence",
+      "block.dreamscape.quaking_aspen_stairs": "Quaking Aspen Stairs",
+      "block.dreamscape.quaking_aspen_slab": "Quaking Aspen Slab",
       "block.dream_scape.faded_oak_slab": "Faded_Oak Slab",
-      "block.dreamscape.quaking_aspen_leaves": "Quaking_Aspen Leaves",
+      "block.dreamscape.quaking_aspen_leaves": "Quaking Aspen Leaves",
       "block.dream_scape.quaking_aspen_wood": "Quaking_Aspen Wood",
       "block.dreamscape.faded_grass": "Faded Grass",
       "block.dreamscape.faded_dirt": "Faded Dirt",
-      "block.dreamscape.faded_oak_planks": "Faded_Oak Planks",
+      "block.dreamscape.faded_oak_planks": "Faded Oak Planks",
       "block.dream_scape.quaking_aspen_leaves": "Quaking_Aspen Leaves",
-      "block.dreamscape.faded_oak_fence_gate": "Faded_Oak Fence Gate",
-      "block.dreamscape.quaking_aspen_fence": "Quaking_Aspen Fence",
+      "block.dreamscape.faded_oak_fence_gate": "Faded Oak Fence Gate",
+      "block.dreamscape.quaking_aspen_fence": "Quaking Aspen Fence",
       "block.dream_scape.quaking_aspen_slab": "Quaking_Aspen Slab",
       "block.dream_scape.faded_oak_fence_gate": "Faded_Oak Fence Gate",
       "item_group.dream_scape.dream_scape": "DreamScape",
       "block.dream_scape.faded_oak_fence": "Faded_Oak Fence",
-      "block.dreamscape.quaking_aspen_button": "Quaking_Aspen Button",
+      "block.dreamscape.quaking_aspen_button": "Quaking Aspen Button",
       "block.dream_scape.quaking_aspen_planks": "Quaking_Aspen Planks",
       "block.dream_scape.quaking_aspen_button": "Quaking_Aspen Button",
       "block.dreamscape.faded_stone": "Faded Stone",
       "block.dream_scape.faded_oak_stairs": "Faded_Oak Stairs",
-      "block.dreamscape.quaking_aspen_planks": "Quaking_Aspen Planks",
-      "block.dreamscape.faded_oak_leaves": "Faded_Oak Leaves",
+      "block.dreamscape.quaking_aspen_planks": "Quaking Aspen Planks",
+      "block.dreamscape.faded_oak_leaves": "Faded Oak Leaves",
       "block.dreamscape.faded_sapling": "Faded Sapling",
       "block.dream_scape.quaking_aspen_stairs": "Quaking_Aspen Stairs",
       "block.dream_scape.quaking_aspen_log": "Quaking_Aspen Log",
       "item_group.dreamscape.dream_scape": "DreamScape",
-      "block.dreamscape.quaking_aspen_wood": "Quaking_Aspen Wood",
-      "block.dreamscape.faded_oak_pressure_plate": "Faded_Oak Pressure Plate",
+      "block.dreamscape.quaking_aspen_wood": "Quaking Aspen Wood",
+      "block.dreamscape.faded_oak_pressure_plate": "Faded Oak Pressure Plate",
       "block.dream_scape.faded_oak_log": "Faded_Oak Log",
-      "block.dreamscape.faded_oak_slab": "Faded_Oak Slab",
-      "block.dreamscape.quaking_aspen_log": "Quaking_Aspen Log",
+      "block.dreamscape.faded_oak_slab": "Faded Oak Slab",
+      "block.dreamscape.quaking_aspen_log": "Quaking Aspen Log",
       "block.dream_scape.faded_oak_leaves": "Faded_Oak Leaves"
     }
   },
@@ -822,7 +858,12 @@
               },
               {
                 "name": "Sapling Mechanics ",
-                "children": []
+                "children": [
+                  {
+                    "name": "Trees",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
@@ -833,7 +874,7 @@
   "workspaceSettings": {
     "modid": "dreamscape",
     "modName": "DreamScape",
-    "version": "0.0.1dev",
+    "version": "0.0.1.1",
     "author": "crtca, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
