@@ -42,4 +42,17 @@ authors="crtca, MCreator"
 
 
 # Start of user code block dependencies configuration
+[[dependencies.crits_bambood]]
+modId="silly_willy_core"
+mandatory=true
+versionRange="[0.0.8,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.crits_bambood]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4.9,)"
+ordering="AFTER"
+side="BOTH"
 # End of user code block dependencies configuration

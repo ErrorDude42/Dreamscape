@@ -854,6 +854,23 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "FlyingEye",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_eye",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/dreamscape/client/renderer/FlyingEyeRenderer.java",
+          "src/main/java/io/github/errordude42/dreamscape/entity/FlyingEyeEntity.java",
+          "src/main/resources/assets/dreamscape/models/item/flying_eye_spawn_egg.json",
+          "src/main/resources/data/dreamscape/forge/biome_modifier/flying_eye_biome_modifier.json",
+          "src/main/java/io/github/errordude42/dreamscape/entity/model/FlyingEyeModel.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -904,8 +921,8 @@
       "block.dreamscape.faded_dirt": "Faded Dirt",
       "block.dream_scape.quaking_aspen_leaves": "Quaking_Aspen Leaves",
       "block.dreamscape.faded_oak_fence_gate": "Faded Oak Fence Gate",
-      "block.dream_scape.quaking_aspen_slab": "Quaking_Aspen Slab",
       "block.dream_scape.faded_oak_fence_gate": "Faded_Oak Fence Gate",
+      "block.dream_scape.quaking_aspen_slab": "Quaking_Aspen Slab",
       "block.dream_scape.faded_oak_fence": "Faded_Oak Fence",
       "block.dream_scape.quaking_aspen_planks": "Quaking_Aspen Planks",
       "block.dream_scape.quaking_aspen_button": "Quaking_Aspen Button",
@@ -918,6 +935,7 @@
       "block.dreamscape.faded_oak_pressure_plate": "Faded Oak Pressure Plate",
       "block.dreamscape.lavendar": "Lavendar",
       "block.dreamscape.quaking_aspen_log": "Quaking Aspen Log",
+      "entity.dreamscape.flying_eye": "Flying Eye",
       "block.dreamscape.faded_oak_wood": "Faded Oak Wood",
       "block.dream_scape.quaking_aspen_fence": "Quaking_Aspen Fence",
       "block.dream_scape.faded_oak_planks": "Faded_Oak Planks",
@@ -928,6 +946,7 @@
       "item.dreamscape.lavendar_tea_item": "Lavendar Tea Item",
       "block.dream_scape.quaking_aspen_fence_gate": "Quaking_Aspen Fence Gate",
       "block.dreamscape.quaking_aspen_stairs": "Quaking Aspen Stairs",
+      "item.dreamscape.flying_eye_spawn_egg": "Flying Eye Spawn Egg",
       "block.dreamscape.faded_grass": "Faded Grass",
       "block.dream_scape.quaking_aspen_wood": "Quaking_Aspen Wood",
       "block.dreamscape.faded_oak_planks": "Faded Oak Planks",
@@ -1017,7 +1036,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "pehkui",
+      "geckolib",
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "io.github.errordude42.dreamscape"
