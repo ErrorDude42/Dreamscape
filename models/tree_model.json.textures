@@ -5,6 +5,12 @@
         "0": "faded_oak_sapling"
       },
       "name": "default"
+    },
+    "lavender": {
+      "map": {
+        "0": "lavender_plant"
+      },
+      "name": "lavender"
     }
   }
 }

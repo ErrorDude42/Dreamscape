@@ -42,6 +42,10 @@ public class DreamscapeModTabs {
 				tabData.accept(DreamscapeModBlocks.FADED_DIRT.get().asItem());
 				tabData.accept(DreamscapeModBlocks.FADED_STONE.get().asItem());
 				tabData.accept(DreamscapeModBlocks.FADED_SAPLING.get().asItem());
+				tabData.accept(DreamscapeModBlocks.LAVENDAR.get().asItem());
+				tabData.accept(DreamscapeModItems.LAVENDAR_ITEM.get());
+				tabData.accept(DreamscapeModItems.TEA_CUP.get());
+				tabData.accept(DreamscapeModItems.LAVENDAR_TEA_ITEM.get());
 			})
 
 					.build());

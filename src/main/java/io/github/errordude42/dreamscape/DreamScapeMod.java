@@ -27,7 +27,9 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import io.github.errordude42.dreamscape.init.DreamscapeModTabs;
+import io.github.errordude42.dreamscape.init.DreamscapeModMobEffects;
 import io.github.errordude42.dreamscape.init.DreamscapeModItems;
+import io.github.errordude42.dreamscape.init.DreamscapeModEntities;
 import io.github.errordude42.dreamscape.init.DreamscapeModBlocks;
 
 @Mod("dreamscape")
@@ -44,8 +46,11 @@ public class DreamscapeMod {
 		DreamscapeModBlocks.REGISTRY.register(bus);
 
 		DreamscapeModItems.REGISTRY.register(bus);
+		DreamscapeModEntities.REGISTRY.register(bus);
 
 		DreamscapeModTabs.REGISTRY.register(bus);
+
+		DreamscapeModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

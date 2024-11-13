@@ -20,6 +20,7 @@ import io.github.errordude42.dreamscape.block.Quaking_AspenLeavesBlock;
 import io.github.errordude42.dreamscape.block.Quaking_AspenFenceGateBlock;
 import io.github.errordude42.dreamscape.block.Quaking_AspenFenceBlock;
 import io.github.errordude42.dreamscape.block.Quaking_AspenButtonBlock;
+import io.github.errordude42.dreamscape.block.LavendarBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakWoodBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakStairsBlock;
 import io.github.errordude42.dreamscape.block.Faded_OakSlabBlock;
@@ -62,6 +63,7 @@ public class DreamscapeModBlocks {
 	public static final RegistryObject<Block> FADED_DIRT = REGISTRY.register("faded_dirt", () -> new FadedDirtBlock());
 	public static final RegistryObject<Block> FADED_STONE = REGISTRY.register("faded_stone", () -> new FadedStoneBlock());
 	public static final RegistryObject<Block> FADED_SAPLING = REGISTRY.register("faded_sapling", () -> new FadedSaplingBlock());
+	public static final RegistryObject<Block> LAVENDAR = REGISTRY.register("lavendar", () -> new LavendarBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

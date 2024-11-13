@@ -1,0 +1,9 @@
+{
+  "parent": "dreamscape:custom/tree_model",
+  "textures": {
+    "all": "dreamscape:block/lavender_plant",
+    "particle": "dreamscape:block/lavender_plant",
+    "0": "dreamscape:block/lavender_plant"
+  },
+  "render_type": "cutout"
+}

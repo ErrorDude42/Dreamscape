@@ -7,11 +7,15 @@ package io.github.errordude42.dreamscape.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import io.github.errordude42.dreamscape.item.TeaCupItem;
+import io.github.errordude42.dreamscape.item.LavendarTeaItemItem;
+import io.github.errordude42.dreamscape.item.LavendarItemItem;
 import io.github.errordude42.dreamscape.DreamscapeMod;
 
 public class DreamscapeModItems {
@@ -40,6 +44,11 @@ public class DreamscapeModItems {
 	public static final RegistryObject<Item> FADED_DIRT = block(DreamscapeModBlocks.FADED_DIRT);
 	public static final RegistryObject<Item> FADED_STONE = block(DreamscapeModBlocks.FADED_STONE);
 	public static final RegistryObject<Item> FADED_SAPLING = block(DreamscapeModBlocks.FADED_SAPLING);
+	public static final RegistryObject<Item> LAVENDAR = block(DreamscapeModBlocks.LAVENDAR);
+	public static final RegistryObject<Item> LAVENDAR_ITEM = REGISTRY.register("lavendar_item", () -> new LavendarItemItem());
+	public static final RegistryObject<Item> TEA_CUP = REGISTRY.register("tea_cup", () -> new TeaCupItem());
+	public static final RegistryObject<Item> LAVENDAR_TEA_ITEM = REGISTRY.register("lavendar_tea_item", () -> new LavendarTeaItemItem());
+	public static final RegistryObject<Item> FLYING_EYE_SPAWN_EGG = REGISTRY.register("flying_eye_spawn_egg", () -> new ForgeSpawnEggItem(DreamscapeModEntities.FLYING_EYE, -6750208, -13421773, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
