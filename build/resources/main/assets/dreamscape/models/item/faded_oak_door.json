@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dreamscape:block/faded_wood_door_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "dreamscape:block/faded_wood_door_bottom",
+    "bottom": "dreamscape:block/faded_wood_door_bottom",
+    "top": "dreamscape:block/faded_wood_door_top"
+  },
+  "render_type": "solid"
+}

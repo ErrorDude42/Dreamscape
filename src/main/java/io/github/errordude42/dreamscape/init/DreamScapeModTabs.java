@@ -46,6 +46,7 @@ public class DreamscapeModTabs {
 				tabData.accept(DreamscapeModItems.LAVENDAR_ITEM.get());
 				tabData.accept(DreamscapeModItems.TEA_CUP.get());
 				tabData.accept(DreamscapeModItems.LAVENDAR_TEA_ITEM.get());
+				tabData.accept(DreamscapeModBlocks.FADED_OAK_DOOR.get().asItem());
 			})
 
 					.build());

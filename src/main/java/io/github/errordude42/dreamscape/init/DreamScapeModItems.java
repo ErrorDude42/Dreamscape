@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import io.github.errordude42.dreamscape.item.TeaCupItem;
@@ -49,10 +50,15 @@ public class DreamscapeModItems {
 	public static final RegistryObject<Item> TEA_CUP = REGISTRY.register("tea_cup", () -> new TeaCupItem());
 	public static final RegistryObject<Item> LAVENDAR_TEA_ITEM = REGISTRY.register("lavendar_tea_item", () -> new LavendarTeaItemItem());
 	public static final RegistryObject<Item> FLYING_EYE_SPAWN_EGG = REGISTRY.register("flying_eye_spawn_egg", () -> new ForgeSpawnEggItem(DreamscapeModEntities.FLYING_EYE, -6750208, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> FADED_OAK_DOOR = doubleBlock(DreamscapeModBlocks.FADED_OAK_DOOR);
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

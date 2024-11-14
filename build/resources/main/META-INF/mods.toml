@@ -14,32 +14,45 @@ authors="crtca, MCreator"
 # End of user code block mod configuration
 
 [[dependencies.dreamscape]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.20.1]"
-    ordering="AFTER"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="AFTER"
+side="BOTH"
 
 
 [[dependencies.dreamscape]]
-    modId="pehkui"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="pehkui"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 [[dependencies.dreamscape]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="geckolib"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 [[dependencies.dreamscape]]
-    modId="jei"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="jei"
+mandatory=false
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
 
 # Start of user code block dependencies configuration
+[[dependencies.crits_bambood]]
+modId="silly_willy_core"
+mandatory=true
+versionRange="[0.0.8,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.crits_bambood]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4.9,)"
+ordering="AFTER"
+side="BOTH"
 # End of user code block dependencies configuration
